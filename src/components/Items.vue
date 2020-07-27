@@ -21,21 +21,13 @@
         </td>
       </tr>
     </table>
-
-    <!-- <div v-for="item in items" v-bind:key="item.id">
-      <Item v-bind:item="item" />
-    </div>-->
   </div>
 </template>
 
 <script>
-// import Item from "./Item";
-
 export default {
   name: "Items",
-  components: {
-    // Item,
-  },
+  components: {},
   props: ["items"],
 };
 </script>
